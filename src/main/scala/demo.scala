@@ -1,3 +1,4 @@
+
 object demo {
   case class Salesman(name: String, sales: BigDecimal)
     def topSales(salesmen: List[Salesman]): Option[Salesman] = {
